@@ -1,10 +1,38 @@
-`<html>
+<html>
 <head>
-    <script scr="file:///Users/anturome/Development/code/Phase_1/DadJoke-Project/data.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://jsfiddle.net/mindplay/dsh53cnr/">
     <title>Data Joke Gen</title>
     <meta charset="utf-8">
 
 </head>
+<div>
+    <h1>Lets Get Jokes! <img src="emojis.png" alt="emoji"></h1>
+</div>
+<div >
+    <button class="jokeText" id="genJoke">Generate Joke</button>
+    <h3 id="fjoke"></h3>
+</div>
+<div class="stars">
+    <input id="star-5" type="radio" name="star"/>
+    <label for="star-5"></label>
+    <input id="star-4" type="radio" name="star"/>
+    <label for="star-4"></label>
+    <input id="star-3" type="radio" name="star"/>
+    <label for="star-3"></label>
+    <input id="star-2" type="radio" name="star"/>
+    <label for="star-2"></label>
+    <input id="star-1" type="radio" name="star"/>
+    <label for="star-1"></label>
+</div>
+
+<body>
+<form>
+    <label >Bored? Search for Jokes!</label><br>
+    <input type="textjoke" id="jokesD" value=""><br>
     
-<h1>Dad Jokes test</h1>
+
+</form>
+</body>
+<script type="text/javascript" src="data.js"></script>
 </html>

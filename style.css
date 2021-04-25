@@ -1,0 +1,69 @@
+html {
+    background-color: lightpink;
+}
+
+img {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    font-style: italic;
+    position: relative;
+}
+
+.jokeText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    position: relative;
+    text-align: center;
+}
+button {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+.stars {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.stars input {
+    display: none;
+}
+
+.stars label {
+    display: inline-block;
+    margin: 0 auto;
+    align-items: center;
+    padding: 2px;
+    font-size: 24px;
+    color: #444;
+    transition: all .2s;
+}
+
+.stars label:before {
+    content: '\2605';
+}
+
+.stars input:checked ~ label:before {
+    color: gold;
+    transition: all .25s;
+}
+
+.stars label:hover {
+    transform: scale(1.3);
+}

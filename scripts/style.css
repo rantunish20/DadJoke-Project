@@ -1,5 +1,5 @@
 html {
-    background-color: #DB5461;
+    background-color: #7B5E7B;
 }
 
 img {
@@ -18,7 +18,7 @@ img {
 
 .jokeBox {
 
-    background-color: #FFD9CE;
+    background-color: #B9F18C;
 	border-radius: 10px;
     width: 600px;
     box-shadow: 0 3px 8px;
@@ -33,13 +33,31 @@ h1 {
 }
 
 .jokeText {
-    background: #8EF9F3;
+    background: #E9EB87;
     border-radius: 10px;
     box-shadow: 0 1px 5px;
     padding: 10px 10px;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.searchstyle {
+    background: #E9EB87;
+    border-radius: 10px;
+    box-shadow: 0 1px 5px;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#jokesD {
+    border-radius: 10px;
+    width: 150px;
+    height: 30px;
 }
 
 h3 {
@@ -79,10 +97,16 @@ form {
 }
 
 .stars input:checked ~ label:before {
-    color:#8EF9F3;
+    color:#E9EB87;
     transition: all .25s;
 }
 
 .stars label:hover {
     transform: scale(1.3);
+}
+
+section {
+    background: #B9F18C;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px;
 }

@@ -8,6 +8,7 @@ const jokeBtn = document.getElementById("genJoke");
 const searchinput = document.getElementById("jokesD")
 const searchQ = document.getElementById("jokesD").value;
 const listres = document.getElementById("resultsLis")
+const searchBttn = document.getElementById("searchbttn")
 
 
 jokeBtn.addEventListener('click', function(event) {
@@ -28,11 +29,9 @@ async function getjokes(){
     document.getElementById("fjoke").innerHTML = data.joke
 }
 
-searchinput.addEventListener('keypress', function(event){
+searchBttn.addEventListener('click', function(event){
     jokeQ();
-    if (e.key === 13){
-        event.preventDefault();
-    }
+    event.preventDefault();
     
 })
 

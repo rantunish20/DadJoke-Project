@@ -77,7 +77,7 @@ form {
 .stars {
     display: inline-block;
     position: relative;
-    padding-top: 10px;
+    padding-top: 1px;
 }
 
 .stars input {
